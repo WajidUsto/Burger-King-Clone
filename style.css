@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Flame-bold";
+    src: url(../Assets/Fonts/FlameBold.otf);
+}
+@font-face {
+    font-family: "Flame-Regular";
+    src: url(Assets/Fonts/FlameRegular.otf);
+}
+html,body{
+    background-color: #F5EBDC;
+    font-family: "Flame-Regular";
+}
+/* #Nav-bar-top{
+    display: flex;
+    justify-content: space-between;
+}
+#Nav-bar-top img{
+    width: 20px;
+}
+#nav-imgs{
+    display: flex;
+    justify-content: space-around;
+} */
