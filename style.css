@@ -25,9 +25,23 @@ html,body{
 #nav-bottom-icons{
     font-family: "Flame-Sans";
 }
+#icon-5-hidden{
+    display: none;
+}
 
 /* Media Queries */
 
-@media (max-width:1600px) {
-    
+@media (max-width:760px) {
+    #nav-btn-2{
+        display: none;
+    }
+    #logo img{
+        left: 40px;
+    }
+    #icon-5-hidden{
+        display: inline-flex;
+    }
+    body{
+        border: 1px dashed #D62300;
+    }
 }
