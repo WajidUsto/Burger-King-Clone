@@ -37,11 +37,23 @@ html,body{
     }
     #logo img{
         left: 40px;
+        width: 50px;
     }
     #icon-5-hidden{
         display: inline-flex;
     }
     body{
         border: 1px dashed #D62300;
+    }
+}
+@media (max-width:460px) {
+    #nav-bottom-icons img{
+        width: 19px;
+    }
+    #nav-bottom-icons p{
+        font-size: 12px;
+    }
+    #nav-btn-1{
+        font-size: 12px;
     }
 }
