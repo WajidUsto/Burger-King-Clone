@@ -24,7 +24,14 @@ html,body{
 body{
     background-color:#F5EBDC;
 }
-
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5EBDC;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #502314;
+}
 #nav-bottom-icons{
     font-family: "Flame-Sans";
 }
