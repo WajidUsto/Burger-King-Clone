@@ -138,6 +138,19 @@ body{
     body{
         border: 1px dashed #D62300;
     }
+    #img2{ 
+        display: block;
+        background-image: url(./Assets/responsive-banner.webp);
+    }
+    #gif-section img{
+        display: none;
+    }
+    #heading-text h1{
+        width: 100%;
+    }
+    #banner-section-inner{
+        justify-content: center;
+    }
 }
 @media (max-width:480px) {
     #nav-btn-1{
