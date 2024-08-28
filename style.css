@@ -46,14 +46,46 @@ html,body{
         border: 1px dashed #D62300;
     }
 }
+@media (max-width:480px) {
+    #nav-btn-1{
+        font-size: 9px;
+    }
+    
+    #nav-bottom-icons p{
+        font-size: 12px;
+    }
+    #nav-btn-1{
+        font-size: 11px;
+    }
+    #hamburger {
+        font-size: 17px;
+    }
+}
 @media (max-width:460px) {
     #nav-bottom-icons img{
         width: 19px;
     }
     #nav-bottom-icons p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    #nav-bottom-icons img{
+        width: 15px;
+    }
+    #logo img{
+        left: 35px;
+        width: 45px;
     }
     #nav-btn-1{
-        font-size: 12px;
+        padding: 7px 12px;
+    }
+}
+@media (max-width:300px) {
+    #nav-btn-1{
+        font-size: 9px;
+        padding: 6px 11px;
+    }
+    #logo img{
+        left: 35px;
+        width: 40px;
     }
 }
