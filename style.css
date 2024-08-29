@@ -169,7 +169,6 @@ body{
         display: flex;
         flex-direction: column;
         margin-top: 74%;
-
     }
     #banner-section-inner{
         display: flex;
@@ -178,7 +177,20 @@ body{
         padding-right: 10px;
         
     }
-
+}
+@media (max-width:600px) {
+    #heading-text h1{
+        font-size: 35px;
+    }
+    #nav-btns-responsive-2 button{
+        font-size: 18px;
+    }
+    #banner-section{
+        padding-top: 4rem;
+    }
+    #nav-btns-responsive-2{
+        margin-top: 80%;
+    }
 }
 @media (max-width:480px) {
     #nav-btn-1{
