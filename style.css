@@ -57,6 +57,7 @@ body{
 
 
 
+
 /* Media Queries */
 @media (max-width:1200px) {
     #banner-section{
@@ -139,10 +140,6 @@ body{
     body{
         border: 1px dashed #D62300;
     }
-    #img2{ 
-        display: block;
-        background-image: url(./Assets/responsive-banner.webp);
-    }
     #gif-section img{
         display: none;
     }
@@ -152,6 +149,36 @@ body{
     #banner-section-inner{
         justify-content: center;
     }
+    #img2 img{
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 28px;
+        z-index: -50;
+        width: 45rem;
+        padding: 39px 10px;
+    }
+    #heading-text h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    #main-btns{
+        display: none;
+    }
+    #nav-btns-responsive-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 74%;
+
+    }
+    #banner-section-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        padding-right: 10px;
+        
+    }
+
 }
 @media (max-width:480px) {
     #nav-btn-1{
