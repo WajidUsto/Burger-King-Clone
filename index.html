@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" type="x-icon" href="./Assets/logo.png">
-    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,7 +16,7 @@
     <nav>
         <!-- Nav-Top-Started -->
         <!-- Nav-Top-Started -->
-        <div id="nav-bar-top" class="bg-[#F5EBDC] flex justify-between items-center p-[5px] border-b[2px] border-solid border-black px-[6%] shadow fixed top-0 w-[100%]">
+        <div id="nav-bar-top" class="bg-[#F5EBDC] flex justify-between items-center p-[5px] border-b[2px] border-solid border-black px-[6%] shadow fixed top-0 w-[100%] animate__animated animate__fadeInDown">
         <div>
             <i id="hamburger" class="fa-solid fa-bars text-[20px] text-[#502314] cursor-pointer hover:bg-[#a7a7a742] p-1"></i>
         </div>
@@ -45,7 +45,7 @@
     <!-- Banner Section Strated -->
     <section id="banner-section" class="pt-[4rem] ml-[-35px] ">
         <div id="banner-section-inner" class="flex justify-center items-center gap-[50px]">
-            <div id="heading-text" class="flex flex-col gap-[10px] ">
+            <div id="heading-text" class="flex flex-col gap-[10px] animate__animated animate__fadeInLeft">
                 <h1 id="main-text" class="text-[70px] text-[#502314] w-[22rem] font-black leading-[5rem]">Start your BK<span class="font-normal">®</span> order.</h1>
                 <div id="main-btns" class="flex flex-col">
                     <button id="main-btn-1" class="text-[20px] px-[18px] py-[16px] bg-[#d62300] border-none text-white rounded-[50px] mb-5 hover:bg-[#9d1a00]">
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div id="gif-section">
-                <img class="w-[53rem] " src="./Assets/card-1.gif" alt="">
+                <img class="w-[53rem] animate__animated animate__fadeInRight" src="./Assets/card-1.gif" alt="">
             </div>
             <div id="img2">
                 <img class="hidden" src="./Assets/responsive-banner.webp" alt="">
@@ -241,5 +241,13 @@
         <!-- Nav-bottom-Ended -->
         <!-- Nav-bottom-Ended -->
 
+        <!-- Gsap Cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- ScrollTrigger Cdn -->
+<!-- ScrollTrigger Cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Custom JScript -->
+<!-- Custom JScript -->
+<script src="./app.js"></script>
 </body>
 </html> 
