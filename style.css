@@ -23,7 +23,7 @@ html,body{
 }
 body{
     background-color:#F5EBDC;
-    height: 500vh;
+    height: 100%;
 }
 .container{
     margin: 0 auto;
@@ -380,12 +380,13 @@ body{
     }
     #nav-btns-responsive-2 button{
         font-size: 18px;
+        margin-left: 20px;
     }
     #banner-section{
         padding-top: 5rem;
     }
     #nav-btns-responsive-2{
-        margin-top: 105%;
+        margin-top: 115%;
     }
 }
 @media (max-width:480px) {
