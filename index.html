@@ -50,7 +50,7 @@
                 <div id="main-btns" class="flex flex-col">
                     <button id="main-btn-1" class="text-[20px] px-[18px] py-[16px] bg-[#d62300] border-none text-white rounded-[50px] mb-5 hover:bg-[#9d1a00]">
                         <i class="fa-solid fa-bag-shopping pr-3"></i>Order Pickup</button>
-                    <button id="main-btn-2" class="text-[20px] text-[#d62300] px-[18px] py-[16px] border border-[#d62300] text-[#502314] rounded-[50px] hover:bg-[#b51e001c]"><i class="fa-solid fa-truck pr-2 text-[18px]"></i>Order Delivery</button>
+                    <button id="main-btn-2" class="text-[20px] text-[#d62300] px-[18px] py-[16px] border border-[#d62300] text-[#502314] rounded-[50px] hover:bg-[#b51e001c]"><i id="truck-icon" class="fa-solid fa-truck pr-2 text-[18px]"></i>Order Delivery</button>
                 </div>
             </div>
             <div id="gif-section">
@@ -159,16 +159,36 @@
 <!-- Phone Section Started -->
 <!-- Phone Section Started -->
 <section id="phone-section-outside" class="bg-[#EBE2D3] mt-[10rem]">
-    <div id="phone-section-inside" class="flex justify-evenly m-[]">
+    <div id="phone-section-inside" class="flex justify-evenly">
         <div id="phone-img">
             <img id="phone-big-img" src="./Assets/qr-img.webp" alt="" class="w-[38rem]">
-            <img id="phone-small-img" src="./Assets/phone-width-img.webp" alt="" class="hidden">
+            <!-- <img id="phone-small-img" src="./Assets/phone-width-img.webp" alt="" class="hidden"> -->
         </div>
         <div id="phone-section-text" class="flex flex-col gap-[50px] justify-center ml-[50px] mr-[50px] ">
         <div id="phone-text" class="text-[#502314] text-[4.2rem] leading-[4.5rem]">
             <h1>Save $$$</h1>
             <span>With offers on demand</span>
         </div>
+        <div id="download-imgs" class="flex gap-3">
+            <img  class="w-[12rem]" src="./Assets/app-store.webp" alt="">
+            <img  class="w-[12rem]" src="./Assets/play-store.webp" alt="">
+        </div>
+        <div id="phone-p" class="text-[#502314] w-[40rem]">
+            <p>Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms apply.</p>
+        </div>
+    </div>
+    </div>
+    <!-- section 2 Started -->
+    <div id="phone-section-inside-2" class="flex justify-evenly hidden">
+        <div id="phone-img" class="flex items-center gap-[25px]">
+            <!-- <img id="phone-big-img" src="./Assets/qr-img.webp" alt="" class="w-[38rem] hidden"> -->
+            <img id="phone-small-img" src="./Assets/phone-width-img.webp" alt="">
+            <div id="phone-text" class="text-[#502314] text-[4.2rem] leading-[4.5rem]">
+                <h1>Save $$$</h1>
+                <span>With offers on demand</span>
+            </div>
+        </div>
+        <div id="phone-section-text" class="flex flex-col gap-[50px] justify-center ml-[50px] mr-[50px] ">
         <div id="download-imgs" class="flex gap-3">
             <img  class="w-[12rem]" src="./Assets/app-store.webp" alt="">
             <img  class="w-[12rem]" src="./Assets/play-store.webp" alt="">
