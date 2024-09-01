@@ -1,0 +1,44 @@
+gsap.from("#I1",{
+    duration:0.4,
+    opacity:0,
+    y:200,
+    markers:true,
+    scrollTrigger:{
+        trigger:"#I1",
+        scroller:"body",
+        start:"top 65%",
+    }
+})
+gsap.from("#I2",{
+    duration:0.4,
+    opacity:0,
+    y:200,
+    markers:true,
+    scrollTrigger:{
+        trigger:"#I2",
+        scroller:"body",
+        start:"top 60%",
+    }
+})
+gsap.from("#I3",{
+    duration:0.4,
+    opacity:0,
+    y:300,
+    markers:true,
+    scrollTrigger:{
+        trigger:"#I1",
+        scroller:"body",
+        start:"bottom 45%",
+    }
+})
+gsap.from("#I4",{
+    duration:0.4,
+    opacity:0,
+    y:300,
+    markers:true,
+    scrollTrigger:{
+        trigger:"#I2",
+        scroller:"body",
+        start:"bottom 40%",
+    }
+})

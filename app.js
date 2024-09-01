@@ -61,7 +61,8 @@ gsap.from("#I1",{
     scrollTrigger:{
         trigger:"#I1",
         scroller:"body",
-        start:"top 65%",
+        start:"top 70%",
+        markers:true,
     }
 })
 gsap.from("#I2",{
@@ -71,7 +72,8 @@ gsap.from("#I2",{
     scrollTrigger:{
         trigger:"#I2",
         scroller:"body",
-        start:"top 60%",
+        markers:true,
+        start:"top 55%",
     }
 })
 gsap.from("#I3",{
@@ -81,7 +83,8 @@ gsap.from("#I3",{
     scrollTrigger:{
         trigger:"#I1",
         scroller:"body",
-        start:"bottom 45%",
+        markers:true,
+        start:"bottom 50%",
     }
 })
 gsap.from("#I4",{
@@ -91,7 +94,8 @@ gsap.from("#I4",{
     scrollTrigger:{
         trigger:"#I2",
         scroller:"body",
-        start:"bottom 40%",
+        markers:true,
+        start:"bottom 35%",
     }
 })
 // Phone Section Scrolling
@@ -101,11 +105,23 @@ gsap.from("#phone-section-inside",{
     opacity:0,
     y:100,
     scrollTrigger:{
-        trigger:"phone-section-inside",
+        trigger:"#phone-section-inside",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 50%",
-        end:"bottom 50%",
+        // end:"bottom 50%",
+    }
+})
+gsap.from("#phone-section-inside-2",{
+    duration:0.4,
+    opacity:0,
+    y:100,
+    scrollTrigger:{
+        trigger:"#phone-section-inside-2",
+        scroller:"body",
+        // markers:true,
+        start:"top 50%",
+        // end:"bottom 50%",
     }
 })
 // gsap.from("#cards-row-2",{
