@@ -62,7 +62,7 @@ gsap.from("#I1",{
         trigger:"#I1",
         scroller:"body",
         start:"top 70%",
-        markers:true,
+        // markers:true,
     }
 })
 gsap.from("#I2",{
@@ -72,7 +72,7 @@ gsap.from("#I2",{
     scrollTrigger:{
         trigger:"#I2",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 55%",
     }
 })
@@ -83,7 +83,7 @@ gsap.from("#I3",{
     scrollTrigger:{
         trigger:"#I1",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"bottom 50%",
     }
 })
@@ -94,7 +94,7 @@ gsap.from("#I4",{
     scrollTrigger:{
         trigger:"#I2",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"bottom 35%",
     }
 })
