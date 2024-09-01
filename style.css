@@ -20,6 +20,7 @@ html,body{
     width: 100%;
     height: 100%;
     font-family: "Flame-Regular";
+    scroll-behavior: smooth;
 }
 body{
     background-color:#F5EBDC;
@@ -81,14 +82,24 @@ body{
 #phone-p{
     font-family: "Flame-Sans";
 }
+#bottom-text-1{
+    font-family: "Flame-Sans";
+    position: relative;
+    bottom: 75px;
+}
 #bottom-text{
     font-family: "Flame-Sans";
+}
+#phone-section-inside{
+    margin-bottom: 5rem;
 }
 #bottom-banner{
     position: relative;
     bottom: 20rem;
 }
-
+#bottom-text{
+    display: none;
+}
 
 
 /* Media Queries */
@@ -134,9 +145,6 @@ body{
         padding-top: 10px;
         margin-right: 0px;
     }
-    body{
-        height: 318vh;
-    }
     #phone-text{
         font-size: 3.5rem;
         line-height: 4rem;
@@ -168,6 +176,10 @@ body{
     #phone-p{
         width: 25rem;
     }
+    #bottom-text-1{
+        font-size: 13px;
+    }
+    
 }
 @media (max-width:1040px) {
     #phone-section-text{
@@ -279,9 +291,6 @@ body{
     #icon-5-hidden{
         display: inline-flex;
     }
-    body{
-        border: 1px dashed #D62300;
-    }
     #gif-section img{
         display: none;
     }
@@ -343,6 +352,7 @@ body{
     }
     #phone-section-inside-2{
         display: block;
+        height: 38rem;
     }
     #phone-small-img{
         width: 14rem;
@@ -369,6 +379,17 @@ body{
     }
     #phone-section-outside{
         margin-top: 6rem;
+    }
+    #bottom-text-1{
+        display: none;
+    }
+    #bottom-text{
+        display: flex;
+        position: relative;
+        bottom: 68px;
+    }
+    #bottom-text{
+        font-size: 11px;
     }
 }
 
@@ -403,6 +424,10 @@ body{
     #card-btn button{
         font-size: 13px;
     }
+    #bottom-text{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 @media (max-width:460px) {
     #nav-bottom-icons img{
@@ -432,7 +457,10 @@ body{
         padding-top: 12px;
         padding-bottom: 12px;
     }
-    
+    #phone-section-inside-2 {
+        display: block;
+        height: 31rem;
+    }
 }
 @media (max-width:430px){
     #phone-small-img{
@@ -482,6 +510,13 @@ body{
     }
     #banner-section-inner{
         padding-left: 20px;
+    }
+    #phone-section-inside-2 {
+        height: 31rem;
+    }
+    #phone-text p span{
+        align-items: center;
+        font-size: 10px;
     }
 }
 @media (max-width:300px) {
