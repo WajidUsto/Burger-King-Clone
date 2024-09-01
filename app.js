@@ -1,58 +1,6 @@
 // Gsap Animation
-
-
-
-// var tl = gsap.timeline()
-// tl.from("#heading-text",{
-//     y:20,
-//     opacity:0,
-//     duration:2,
-//     delay:2
-// })
-// tl.from("#heading-text h1",{
-//     y:20,
-//     duration:2,
-//     opacity:0,
-//     stagger:0.3,
-//     delay:2
-// })
-// tl.from("heading-text main-btn-1",{
-//         y:-20,
-//         duration:2,
-//         opacity:0,
-//         stagger:0.3,
-//         delay:2
-//     })
-    // var tl = gsap.timeline()
-    // // tl.from("#heading-text",{
-    // //     y:-20,
-    // //     opacity:0,
-    // //     duration:2,
-    // //     delay:1,
-    // // })
-    
-    // tl.from("#heading-text h1",{
-    //     y:-50,
-    //     duration:1,
-    //     opacity:0,
-    //     stagger:0.5,
-    // })
-    // tl.from("#main-btn-1",{
-    //     y:50,
-    //     duration:1,
-    //     opacity:0,
-    //     // stagger:0.5,
-    // })
-    // tl.from("#main-btn-2",{
-    //     y:50,
-    //     duration:1,
-    //     opacity:0,
-    //     // stagger:0.5,
-    // })
 // Scrolling Animation Started
 // Scrolling Animation Started
-
-
 
 gsap.from("#I1",{
     duration:0.4,
