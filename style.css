@@ -23,7 +23,7 @@ html,body{
 }
 body{
     background-color:#F5EBDC;
-    height: 350vh;
+    height: 500vh;
 }
 .container{
     margin: 0 auto;
@@ -265,13 +265,11 @@ body{
         font-size: 13px;
     }
 }
-
 @media (max-width:830px) {
     #card-light-text{
         width: 18rem;
     }
 }
-
 @media (max-width:760px) {
     #nav-btn-2{
         display: none;
@@ -329,6 +327,14 @@ body{
     }
     #card-light-text{
         width: 100%;
+    }
+    #phone-big-img{
+        display: none;
+    }
+    #phone-small-img{
+        display: block;
+        width: 20rem;
+        padding-left: 20px;
     }
 }
 @media (max-width:600px) {
