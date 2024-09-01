@@ -175,24 +175,11 @@ body{
     }
 }
 
-/* @media (max-width:1045px) {
-    #heading-text h1{
-        width: 17rem;
-        font-size: 55px;
-    }
-    #banner-section-inner{
-        gap: 0;
+@media (max-width:830px) {
+    #card-light-text{
+        width: 18rem;
     }
 }
-@media (max-width:1000px) {
-    #heading-text h1{
-        width: 18rem;
-        font-size: 59px;
-    }
-    #banner-section-inner{
-        gap: 0;
-    }
-} */
 
 @media (max-width:760px) {
     #nav-btn-2{
@@ -244,6 +231,13 @@ body{
         align-items: normal;
         /* padding-right: 10px; */
         
+    }
+    #cards-row-1 , #cards-row-2{
+        display: flex;
+        flex-direction: column;
+    }
+    #card-light-text{
+        width: 100%;
     }
 }
 @media (max-width:600px) {
