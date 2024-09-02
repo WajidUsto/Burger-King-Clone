@@ -447,7 +447,7 @@ body{
         padding: 7px 12px;
     }
     #nav-btns-responsive-2 {
-        margin-top: 112%;
+        margin-top: 127%;
     }
     #heading-text h1 {
         font-size: 25px;
@@ -496,7 +496,7 @@ body{
 } 
 @media (max-width:400px) {
     #nav-btns-responsive-2 {
-        margin-top: 145%;
+        margin-top: 130%;
     }
     #heading-text h1 {
         font-size: 23px;
