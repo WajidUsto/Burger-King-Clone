@@ -450,7 +450,9 @@ body{
         margin-top: 112%;
     }
     #heading-text h1 {
-        font-size: 27px;
+        font-size: 25px;
+        line-height: 2rem;
+        font-weight: 100;
     }
     #nav-btns-responsive-2 button {
         font-size: 15px;
@@ -497,8 +499,7 @@ body{
         margin-top: 145%;
     }
     #heading-text h1 {
-        font-size: 25px;
-        line-height: 1.5rem;
+        font-size: 23px;
     }
     #nav-btns-responsive-2 button {
         font-size: 12px;
