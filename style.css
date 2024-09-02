@@ -464,6 +464,7 @@ body{
         height: 31rem;
     }
 }
+/* Phone Media Querry */
 @media (max-width:430px){
     #phone-small-img{
         width: 10rem;
